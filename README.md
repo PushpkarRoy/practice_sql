@@ -1,87 +1,113 @@
-# 📊 Practice SQL – Window Functions Mastery Project
+# 📊 Practice SQL – Subqueries & Window Functions Mastery 🚀
 
-Welcome to the **Practice SQL** project — a collection of real-world SQL questions focused on mastering **Window Functions**. This project is built around a realistic business scenario involving sales reps, clients, and sales performance data.
-
-> ✅ Ideal for Data Analyst / BI Analyst roles (6–10 LPA level)
-
----
-
-## 🚀 Project Overview
-
-This project is designed to strengthen your command over **advanced SQL concepts**, especially **analytic/window functions** such as:
-- `ROW_NUMBER()`
-- `RANK()`, `DENSE_RANK()`
-- `LAG()` / `LEAD()`
-- `SUM() OVER`, `NTILE()`
-- `PARTITION BY`, `ORDER BY`
-
-You’ll practice solving real-life business problems using **3 linked tables**:
-- Sales Reps
-- Clients
-- Sales Records
+Welcome to my **Practice SQL Projects** — a collection of real-world SQL challenges designed to master **subqueries** and **window functions**.  
+Each project simulates real-life business problems from healthcare and sales industries — built for **data analyst and BI analyst roles** (6–10 LPA level).
 
 ---
 
-## 🧠 Skills Practiced
+## 🧠 What You'll Learn
 
-- 📌 Window Functions
-- 🧮 Grouped Aggregations
-- 🔁 Row-wise Comparisons
-- 🧠 Sales Trend Analysis
-- 🔗 Multi-table JOINs
-- 📆 Time-based logic (month, day, quarter)
+| Skill Category         | Techniques Covered |
+|------------------------|--------------------|
+| 🔍 Subqueries          | Scalar, Correlated, `EXISTS`, `HAVING`, Nested |
+| 🧮 Window Functions     | `RANK()`, `ROW_NUMBER()`, `LAG()`, `LEAD()`, `NTILE()`, `SUM() OVER` |
+| 🔗 Joins & Aggregation | `JOIN`, `GROUP BY`, `HAVING`, `PARTITION BY`, `ORDER BY` |
+| 📊 Business Insights   | Revenue, Visits, Follow-ups, Ranking, Growth %, Client Spend |
+| 📆 Date Logic           | 60-day filters, First/Last visit, Month & Day partitions |
 
 ---
 
-## 🧾 Dataset Summary
+## 📁 Projects & Datasets
 
-| Table        | Description                                  |
-|--------------|----------------------------------------------|
-| `sales_reps` | Info about sales representatives (rep_id, name, region) |
-| `clients`    | Client data across various industries        |
-| `sales`      | Sales transactions by rep, client, and date  |
+### 🏥 Project 1: **Hospital Subquery Analysis**
+- Focus: Advanced subquery practice using a healthcare scenario
+- 📂 Tables:
+  - `patients`: Basic patient info
+  - `doctors`: Doctor details including specialty
+  - `visits`: Visit history with billing & follow-up status
+- ✅ Highlights:
+  - Patients with no follow-ups
+  - Doctors not visited in 60 days
+  - Patients visiting all specialties
+  - Highest billing clients
 
-> Dataset includes 1000+ sales records, 15 clients, and 5 reps — all generated with realistic values.
+### 📈 Project 2: **Sales – Window Functions Mastery**
+- Focus: Window function use in a corporate sales setup
+- 📂 Tables:
+  - `sales_reps`: Regional sales team info
+  - `clients`: Industry-based clients
+  - `sales`: Transactions (rep × client × date × amount)
+- ✅ Highlights:
+  - Rank reps/clients by sales
+  - Running totals and growth %
+  - Row-wise comparisons
+  - Monthly and day-wise performance
 
 ---
 
 ## 📂 File Structure
 
-| File Name                                | Description                             |
-|------------------------------------------|-----------------------------------------|
-| `practice_window_SQL.sql`                | Contains 10 structured SQL questions    |
-| `sales_reps.csv`, `clients.csv`, `sales.csv` | CSV files to import into your database  |
-| `README.md`                              | Project documentation (this file)       |
+| File                                   | Description                        |
+|----------------------------------------|------------------------------------|
+| `practice_window_SQL.sql`              | 10 advanced window function queries |
+| `Sub_query_sql_practice.sql`           | 10 complex subquery challenges      |
+| `sales_reps.csv`, `clients.csv`, `sales.csv` | Sales data for import                |
+| `README.md`                            | You are here ✅                     |
 
 ---
 
-## 🧩 Problem Statements Covered
+## 📌 Problem Statements Solved
 
-1. 🔢 Row number of each sale by rep  
-2. 🏆 Top 3 sales reps by total sales  
-3. 📈 Running total of sales per rep  
-4. 📊 Monthly revenue and growth %  
-5. 🧾 Rank clients by total spending  
-6. 🗓️ First sale date per rep  
-7. 📅 Day-wise trend (last 30 days)  
-8. 🏭 Total sales per industry  
-9. 🏁 Highest single sale per rep  
-10. 📉 % contribution of each sale to rep total  
+### ✅ Subquery Challenges
+1. Patients billed more than avg
+2. Doctors with high avg billing
+3. Patients with all-specialty visits
+4. Dormant doctors (60+ days no visit)
+5. Patients with only 1 follow-up
+6. Top revenue doctors
+7. First visit outside patient city
+8. More than 2 city visits per doctor
+
+### ✅ Window Function Scenarios
+1. Row number per rep
+2. Rank top 3 reps
+3. Running total per rep
+4. Monthly revenue and % growth
+5. Client spend ranking
+6. First sale date per rep
+7. Day-wise trend (last 30 days)
+8. Industry sales breakdown
+9. Highest single sale per rep
+10. % contribution to rep’s total
 
 ---
 
-## 🧑‍💻 About Me
+## 👨‍💻 About Me
 
-Hi, I'm **Pushpkar Roy** – a passionate data analyst building real-world projects using **SQL, Power BI, and Python**.
+I'm **Pushpkar Roy**, an aspiring data analyst building real-world projects using:
+- ✅ SQL (advanced level)
+- 📊 Power BI
+- 🧮 Python
+- 📘 Excel
 
-📌 Currently targeting 6–10 LPA analyst roles with full portfolio readiness.  
-📈 This is one of many projects to showcase **query logic**, **insight building**, and **code quality**.
+Currently targeting **6–10 LPA roles** and building a strong technical + project-based portfolio.
 
 ---
 
-## 📌 Resume Points (Add These!)
+## 💼 Resume-Ready Highlights
 
-- Solved 10+ real-world business scenarios using **advanced SQL window functions**
-- Used `RANK`, `LAG`, `SUM() OVER`, `NTILE`, and time-based logic on a realistic sales dataset
-- Practiced analytical use cases: revenue trends, top clients, rep performance, and growth % tracking
-- Managed relational joins between
+- Solved 20+ real-world SQL problems across healthcare and sales domains
+- Mastered subqueries, joins, `HAVING`, and filtering with logic
+- Used window functions (`RANK`, `LAG`, `NTILE`, `SUM OVER`) to track trends and ranks
+- Simulated realistic datasets with 1000+ records for client-ready analysis
+- Created business-driven insights (growth %, top customers, dormant behavior)
+
+---
+
+## 🏷️ Tags  
+`#SQLProject` `#Subqueries` `#WindowFunctions` `#DataAnalytics` `#HospitalSQL` `#SalesSQL` `#PushpkarRoyPortfolio`
+
+---
+
+> 💡 Tip: Clone this project and run it in your SQL environment for hands-on practice!
+
