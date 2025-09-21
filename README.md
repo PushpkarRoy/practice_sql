@@ -20,7 +20,7 @@ Each project simulates real-life business problems from healthcare and sales ind
 ## 📁 Projects & Datasets
 
 ### 🏥 Project 1: **Hospital Subquery Analysis**
-- Focus: Advanced subquery practice using a healthcare scenario
+- Focus: Advanced subquery practice using a healthcare scenario 
 - 📂 Tables:
   - `patients`: Basic patient info
   - `doctors`: Doctor details including specialty
