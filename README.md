@@ -13,7 +13,7 @@ Each project simulates real-life business problems from healthcare and sales ind
 | 🧮 Window Functions     | `RANK()`, `ROW_NUMBER()`, `LAG()`, `LEAD()`, `NTILE()`, `SUM() OVER` |
 | 🔗 Joins & Aggregation | `JOIN`, `GROUP BY`, `HAVING`, `PARTITION BY`, `ORDER BY` |
 | 📊 Business Insights   | Revenue, Visits, Follow-ups, Ranking, Growth %, Client Spend |
-| 📆 Date Logic           | 60-day filters, First/Last visit, Month & Day partitions |
+| 📆 Date Logic           | 60-day filters, First/Last visit, Month & Day partitions | 
 
 ---
 
