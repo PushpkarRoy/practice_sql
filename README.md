@@ -14,7 +14,7 @@ Each project simulates real-life business problems from healthcare and sales ind
 | 🔗 Joins & Aggregation | `JOIN`, `GROUP BY`, `HAVING`, `PARTITION BY`, `ORDER BY` |
 | 📊 Business Insights   | Revenue, Visits, Follow-ups, Ranking, Growth %, Client Spend |
 | 📆 Date Logic           | 60-day filters, First/Last visit, Month & Day partitions | 
-
+ 
 ---
 
 ## 📁 Projects & Datasets
